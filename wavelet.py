@@ -9,12 +9,13 @@ original= skimage.io.imread('./EnglishImg/English/Img/GoodImg/Bmp//Sample005/img
 original=skimage.img_as_float(original)
 
 #Add noise to image
-sigma = 0.15
-noisy = random_noise(original, var=sigma**2)
+noisy = random_noise(original, mean=0.3)
+
 
 #Display images
 fig, ax = plt.subplots(nrows=1, ncols=2, figsize=(10, 4),
                        sharex=False, sharey=False)
+
 ax = ax.ravel()
 psnr_noisy = peak_signal_noise_ratio(original, noisy)
 ax[0].imshow(noisy)
