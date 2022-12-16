@@ -1,4 +1,6 @@
-# ImageProcessing
+# Image Processing Projct
+This repository hold the code we used for our project of VE556, Image Processing course at SJTU (FAll semester)
+
 
 ## Dataset
 You can download the datasets we used on this website
