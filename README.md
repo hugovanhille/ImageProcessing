@@ -1,4 +1,4 @@
-# Image Processing Projct
+# Image Processing Project
 ![Test](image.png) 
 
 This repository hold the code we used for our project of VE556, Image Processing course at SJTU (FAll semester)
