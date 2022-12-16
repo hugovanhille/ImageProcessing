@@ -5,7 +5,7 @@ You can download the datasets we used on this website
 http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/
 
 ## Add noise
-The file The file [noise.py](https://github.com/hugovanhille/ImageProgressing/noise.py)  include the code we used to add noise to a dataset present in local folders
+The file [noise.py](https://github.com/hugovanhille/ImageProgressing/noise.py)  include the code we used to add noise to a dataset present in local folders
 
 ## Denoising method 
 
@@ -15,7 +15,7 @@ The file [lowPassFilter.py](https://github.com/hugovanhille/ImageProgressing/low
 The file [wavelet.py](https://github.com/hugovanhille/ImageProgressing/wavelet.py) include the script used to test the method wavelet domain filtering.
 
 ## Metrics Performance
-In this file, we have the main function that noise, denoise and calculate all the metrics for a given number of images (here 10). This function takes 2 parameters: the name of the filter(mean_filter,median_filter,combined_filter, LowPass_Filter and wavelet) and the class (0= Mean/Median/Combined,1=Low Pass and other is Wavelet).  This function return the original images, the denoise images and all the error (RMSE,NRMSE,SNR and PSNR). For example, you could do: image,denoise_image,rmse,nrmse,snr,psnr=main(mean_filter,0).
+In this file, we have the main function that noise, denoise and calculate all the metrics for a given number of images (here 10). This function takes 2 parameters: the name of the filter(mean_filter, median_filter, combined_filter, LowPass_Filter and wavelet) and the class (0= Mean/Median/Combined, 1=Low Pass and other is Wavelet).  This function return the original images, the denoise images and all the error (RMSE, NRMSE, SNR and PSNR). For example, you could do: image, denoise_image, rmse, nrmse, snr, psnr=main(mean_filter, 0).
 At the end of this file, we plot the result for 10 images for all the different filter.
 
 ## Deep Neural Network (DNN)
