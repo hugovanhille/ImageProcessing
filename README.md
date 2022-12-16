@@ -1,11 +1,17 @@
 # ImageProcessing
 
-##Dataset
+## Dataset
 You can download the datasets we used on this website
 http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/
 
-##Add noise
-The file noise.py include the code we used to add noise to our images
+## Add noise
+The file noise.py include the code we used to add noise to a dataset present in local folders
 
-##Denoising method 
+## Denoising method 
 You can find in the folder denoising the different script we have implemented to denoise images
+
+## Metrics Performance
+
+## Deep Neural Network (DNN)
+
+
