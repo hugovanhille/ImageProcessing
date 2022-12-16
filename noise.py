@@ -6,6 +6,8 @@ import cv2
 import numpy as np
 from PIL import Image, ImageFilter
 
+"""This script can be used to add nose to all the images present in a folder.
+   To do so you have to change the paths accordingly to your own local paths"""
 folder_dir = "./EnglishImg/English/Img/GoodImg/Bmp/"    #Path to one type of images
 os.mkdir('./EnglishImg/English/Img/noisyImag/')
 for samples in os.listdir(folder_dir):
