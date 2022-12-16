@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 from scipy import fftpack
 import numpy as np
 
-#Open image
+"""This script allow you to test the Spatial frequency filtering on a noisy image
+   You must enter the local path of your image line """
+#Open noisy image
 image = io.imread('./EnglishImg/English/Img/noisyImag/Sample005/img005-00002.png', as_gray=True)
 M,N = image.shape
 f, ax = plt.subplots(figsize=(5,5))
