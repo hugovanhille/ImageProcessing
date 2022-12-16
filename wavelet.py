@@ -4,6 +4,9 @@ from skimage.restoration import denoise_wavelet, cycle_spin
 from skimage.util import random_noise
 from skimage.metrics import peak_signal_noise_ratio
 
+"""This file provide a script to test the Wavelet domain filtering on a input image.
+   This script automatically add the noise to you image.
+   You just have to enter your local path line """
 #import image
 original= skimage.io.imread('./EnglishImg/English/Img/GoodImg/Bmp//Sample005/img005-00002.png')
 original=skimage.img_as_float(original)
